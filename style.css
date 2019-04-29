@@ -22,6 +22,7 @@ body {
     bottom: 0;
     padding: 10px;
     padding-left: 0;
+    z-index: 20;
 }
 
 .fade {
@@ -29,7 +30,7 @@ body {
     background-image: linear-gradient(0deg, transparent, black 75%);
     z-index: 1;
     width: 100%;
-    min-height: 30vh;
+    min-height: 25vh;
     top: -25px;
    
 }
@@ -39,7 +40,7 @@ body {
     top: 45%;
     left: 35%;
     z-index: 1;
-    animation: intro 6s ease-out 1s;
+    animation: intro 6s ease-out;
     color: rgb(75, 213, 238);
     font-weight: 400;
     font-size: 300%;
@@ -65,7 +66,7 @@ body {
     position: absolute;
     z-index: 1;
     margin: auto;
-    animation: logo 9s ease-out 9s;
+    animation: logo 9s ease-out 8s;
     opacity: 0;
 }
 
@@ -90,7 +91,7 @@ body {
         transform: scale(0.1);
         width: 20em;   
         left: 40%;  
-        top: 40%;   
+        top: 35%;   
     }
 }
 
@@ -125,7 +126,7 @@ p {
 
 
 #content {
-    animation: scroll 100s linear 16s;
+    animation: scroll 200s linear 15s;
     position: absolute;
     top: 100%;
 }
